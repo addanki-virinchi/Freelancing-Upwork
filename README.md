@@ -35,7 +35,7 @@ To run this script, you need:
 
 3. Run the script:
    ```bash
-   python scrape_upwork_profiles.py
+   python UpworkScraper.py
    ```
 
 ## Filter Profiles
@@ -55,7 +55,7 @@ The script generates a CSV file containing the following columns:
 
 ## Customization
 
-Modify the filtering conditions by updating the parameters in the `scrape_upwork_profiles.py` script, such as setting a different maximum hourly rate or filtering other fields.
+Modify the filtering conditions by updating the parameters in the `UpworkScraper.py` script, such as setting a different maximum hourly rate or filtering other fields.
 
 ## Known Issues
 
