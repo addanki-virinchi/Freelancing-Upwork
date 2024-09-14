@@ -103,4 +103,3 @@ df.to_excel('upwork_profile_2.xlsx', index=False)
 
 # Close the WebDriver
 driver.quit()
-#https://www.upwork.com/nx/search/talent/?adaptive_skill_uid=1031626776454348800&nbs=2&q=sales%20copywriter&rate=0-10&page=2
