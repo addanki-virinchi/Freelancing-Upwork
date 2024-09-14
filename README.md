@@ -27,8 +27,9 @@ To run this script, you need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/upwork-profile-scraper.git
-   cd upwork-profile-scraper
+   git clone https://github.com/addanki-virinchi/Freelancing-Upwork.git
+
+   cd Freelancing-Upwork
    ```
 
 
