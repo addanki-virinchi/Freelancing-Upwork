@@ -99,7 +99,7 @@ df = pd.DataFrame({
 })
 
 # Save the DataFrame to an Excel file
-df.to_excel('upwork_profile_2.xlsx', index=False)
+df.to_excel('upwork_profiles.xlsx', index=False)
 
 # Close the WebDriver
 driver.quit()
