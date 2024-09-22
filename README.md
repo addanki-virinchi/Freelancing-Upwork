@@ -63,10 +63,6 @@ Modify the filtering conditions by updating the parameters in the `UpworkScraper
 - **Upwork Captchas**: Upwork may present captchas during scraping. It's recommended to add delays between requests or limit the scraping frequency to avoid detection.
 
 
-## License
-
-[MIT License](LICENSE)
-
 ## Disclaimer
 
 This tool is for educational purposes only. The user is responsible for any consequences of using this scraper. Ensure you comply with Upwork's Terms of Service and use the tool responsibly.
