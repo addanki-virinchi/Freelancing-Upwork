@@ -17,18 +17,7 @@ Job_Success = []
 Hourly = []
 Amounts = []
 
-# Function to detect CAPTCHA
-def detect_captcha(driver):
-    try:
-        captcha_element = driver.find_element(By.XPATH, "//input[@aria-label='CAPTCHA']")
-        if captcha_element.is_displayed():
-            return True
-    except Exception:
-        return False
 
-# Simulating human-like behavior with random delays
-def random_sleep(min_time=1, max_time=3):
-    time.sleep(random.uniform(min_time, max_time))
 
 # Scraping through multiple pages
 for i in range(1,85): 
@@ -86,8 +75,6 @@ for i in range(1,85):
     except Exception as e:
         print(f"Error on page {i}: {e}")
 
-    # Random delay between page loads
-    random_sleep()
 
 # Create a DataFrame and save to Excel
 df = pd.DataFrame({
