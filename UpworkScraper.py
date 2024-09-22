@@ -4,8 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
-import time
-import random
+
 
 # Initialize the undetected Chrome driver
 driver = uc.Chrome()
